@@ -3,7 +3,7 @@ html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
 /*
- BARVY
+ BARVY:
  czechitas  #b92e81
  pozadi     #bdc3c7
  tmava      #31363b
@@ -13,8 +13,14 @@ html { box-sizing: border-box; }
  twitter    #1da1f2
 */
 
+ /* Nevím jak oddělat ty mezery mezi jednotlivými sekcemi */
 body {
     background-color: #bdc3c7;
+}
+
+.h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
 section{
     background-color:#31363b;
@@ -22,12 +28,75 @@ section{
     height: 500px;
     overflow-wrap: break-word;
     hyphens: auto;
-    font-family: s;
+    font-family: Source Sans Pro;
     font-size: medium;
     color: white;
+    margin: 0;
+    padding: 30px;
+    box-shadow: 5px 5px 8px #888888;
 }
+
+.logo {
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    left: 180px;
+    top: 150px;
+  } 
+
 ul{
     background-color:#31363b;
     width: 250px;
 }
 
+.foto {
+    width: 250px;
+    height: auto;
+    position: relative;
+    margin: 0;
+    }
+
+
+    /* Tohle bohužel nevím jak udělat hezké */
+
+    
+.portfolio {
+    width: 250px;
+color: white;
+display: block;
+}
+
+
+.facebook {
+    width: 100px;
+    color: white;
+    display: inline-block;
+}
+
+.twitter {
+    width: 100px;
+    color: white;
+    display: inline-block;
+}
+
+
+
+a:link {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  a:visited {
+    color: pink;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: orangered;
+    text-decoration: underline;
+  }

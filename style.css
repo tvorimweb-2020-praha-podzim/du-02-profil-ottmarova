@@ -13,7 +13,21 @@ html { box-sizing: border-box; }
  twitter    #1da1f2
 */
 
-
 body {
     background-color: #bdc3c7;
 }
+section{
+    background-color:#31363b;
+    width: 250px;
+    height: 500px;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    font-family: s;
+    font-size: medium;
+    color: white;
+}
+ul{
+    background-color:#31363b;
+    width: 250px;
+}
+

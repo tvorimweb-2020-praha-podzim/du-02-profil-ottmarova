@@ -16,16 +16,31 @@ html { box-sizing: border-box; }
  /* Nevím jak oddělat ty mezery mezi jednotlivými sekcemi */
 body {
     background-color: #bdc3c7;
-}
+    font-family: 'Montserrat', sans-serif;
+    max-width: 250px;
+    box-shadow: 1px 1px 10px #31363b;
+    margin: 1.5rem 0 0 1.5rem;
+    font-size: 0;}
 
 .h1 {
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
+
+p {
+  color: #bdc3c7;
+  font-size: 15px;
+}
+
+.obsah {
+  background-color: #31363b;
+  padding: 1rem;
+}
+
 section{
     background-color:#31363b;
     width: 250px;
-    height: 500px;
+    height: 400px;
     overflow-wrap: break-word;
     hyphens: auto;
     font-family: Source Sans Pro;
@@ -37,11 +52,11 @@ section{
 }
 
 .logo {
-    background-color: pink;
+    background-color: #b92e81;
     border-radius: 50%;
     position: absolute;
-    left: 180px;
-    top: 150px;
+    left: 200px;
+    top: 160px;
   } 
 
 ul{
@@ -57,46 +72,50 @@ ul{
     }
 
 
-    /* Tohle bohužel nevím jak udělat hezké */
-
+    .odkazy {
+      background-color: #31363b;
+      display: inline-block;
+      text-align: center;
+      padding-inline-start: 0;
+      margin: 0;
+  }
+  
+  .odkazy li {
+      display: inline-block;
+      font-size: 15px;
+      text-transform: uppercase;
+      padding: 1rem 0;
+  }
+  
+  .odkazy a {
+      color: #bdc3c7;
+      text-decoration: none; 
+      
+  }
     
-.portfolio {
-    width: 250px;
-color: white;
-display: block;
-}
-
-
-.facebook {
-    width: 100px;
-    color: white;
-    display: inline-block;
-}
-
-.twitter {
-    width: 100px;
-    color: white;
-    display: inline-block;
-}
-
-
-
-a:link {
-    color: white;
-    font-family: 'Montserrat', sans-serif;
+  .portfolio {
+      width: 100%;
+      border-top: 2px solid #3f464d;
+      border-bottom: 2px solid #3f464d;
   }
   
-  a:visited {
-    color: pink;
-    text-decoration: none;
+  .facebook {
+      width: 50%;
   }
   
-  a:hover {
-    color: red;
-    text-decoration: underline;
+  .twitter {
+      width: 50%;
   }
   
-  a:active {
-    color: orangered;
-    text-decoration: underline;
+  .portfolio:hover {
+      background-color: #e74c3c;
+  }
+    
+  
+  .facebook:hover {
+      background-color: #3b5998;
+  }
+  
+  .twitter:hover {
+      background-color:#1da1f2;
   }
